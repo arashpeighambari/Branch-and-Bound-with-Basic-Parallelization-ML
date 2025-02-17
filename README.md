@@ -1,8 +1,16 @@
-# Branch-and-Bound-with-Basic-Parallelization-ML
-Branch-and-Bound with Basic Parallelization &amp; ML
+# Branch-and-Bound with Basic Parallelization & ML
 
-The main boiler plate is branch-and-bound.ipynb notebook that initiate the experiments
-There are 4 modules: baseline_bb.py, parallel_bb.py, ml_bb.py and brute_force.py
-There is a data directory containing the test data
-The test data is a text file containing five instances of 10-city TSP (cost matrix)
-There is a utils directory containing the load_data helper function for reading test data
+This repository contains an implementation of the Branch-and-Bound algorithm with basic parallelization and machine learning enhancements.
+
+## Project Structure
+
+- **`branch-and-bound.ipynb`** – The main notebook that initiates the experiments.
+- **Modules:**
+  - `baseline_bb.py` – Standard Branch-and-Bound implementation.
+  - `parallel_bb.py` – Parallelized version of Branch-and-Bound.
+  - `ml_bb.py` – Machine Learning-enhanced Branch-and-Bound.
+  - `brute_force.py` – Brute-force approach for comparison.
+- **Data Directory (`data/`)** – Contains test data files:
+  - Test data is a text file containing five instances of a 10-city Traveling Salesman Problem (TSP) cost matrix.
+- **Utils Directory (`utils/`)** – Contains helper functions:
+  - `load_data.py` – Function to read test data.
